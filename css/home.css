@@ -1,0 +1,43 @@
+body{
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+.textFormateTypeOne{
+    font-weight: bold;
+    text-align: center;
+}
+.tutorPhotoFrame{
+    background-color: white;
+    padding: 30px;
+}
+.carousel-inner{
+    overflow: hidden;
+    height: 500px;
+}
+.servicesContentDetail{
+    font-size: 13px;
+    text-align: left;
+}
+.fa-angle-right{
+    color: darkgoldenrod;
+    margin-right: 5px;
+}
+.courseDetail{
+    font-size: 12px;
+}
+.contact{
+    margin-right: 0px;
+}
+.fa-envelope-open, .fa-mobile-alt{
+    margin-right: 5px;
+    color: #1c7430;
+}
+.fa-mobile-alt{
+    font-size: 15px;
+}
+.contactDetail{
+    text-align: center;
+}
+.wechatbar{
+    margin-left: 35%;
+}
