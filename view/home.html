@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" >
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Home</title>
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="../images/navlogo.png" alt="This should be be the logo image" width="30px" height="25px">
+        <span>iAceIT</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#courses" data-toggle="modal">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#service" data-toggle="modal">Services</a>
+            </li>
+            <li class="nav-item contact">
+                <a class="nav-link" href="#contact" data-toggle="modal">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<hr/>
+<div class="container">
+
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" style="padding-top: 20%">
+            <h4 class="textFormateTypeOne">
+                Making Study Easy
+            </h4>
+        </div>
+        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9" >
+            <!--Tutor Photo Frame -->
+            <div class="tutorPhotoFrame">
+                <div>
+                    <p>Tutors</p>
+                </div>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 img-fluid" src="../images/Haoming.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../images/Cuiyuan.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../images/Caicai.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Model for services -->
+    <div class="modal fade" id="service" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Services</h4>
+                    <button type="button" class="close" data-dismiss="modal" >&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <em>The most important thing is: Your lecture notes.</em>
+                    <br/>
+                    <hr/>
+                    <p class="servicesContentTitle textFormateTypeOne" >Quizzes</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right"></em>  Go through every key point for each quiz/assignment questions.</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right"></em>  Extend and reinforce lecture content to better prepare for exams.</p>
+                    <p class="servicesContentTitle textFormateTypeOne" >Assignments</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right" ></em>  Analyse assignment requirements and guide students to finish assignments independently.</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right"></em>  Regularly check in and ensure students completing their assignments on time.</p>
+                    <p class="servicesContentTitle textFormateTypeOne" >Test and Exam</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right" ></em>  Review past tests and exam papers.</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right" ></em>  Explain and elaborate key points, pain points and examinable points in lecture notes.</p>
+                    <p class="servicesContentDetail textFormateTypeOne" ><em class="fas fa-angle-right" ></em>  Provide exam like online test environment.</p>
+                    <p class="servicesContentTitle textFormateTypeOne" >Course Consultant</p>
+                    <p class="servicesContentDetail textFormateTypeOne" s><em class="fas fa-angle-right" ></em>  Guide students to choose courses which align with students’ interests career path.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Model for courses -->
+    <div class="modal fade" id="courses" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Courses</h4>
+                    <button type="button" class="close" data-dismiss="modal" >&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <table class="table" >
+                        <thead>
+                        <th>Course Id</th>
+                        <th>Semester</th>
+                        </thead>
+                        <tbody class="courseDetail">
+                        <tr>
+                            <td>COSC121</td>
+                            <td>Semester One/Two</td>
+                        </tr>
+                        <tr>
+                            <td>COSC122</td>
+                            <td>Semester Two</td>
+                        </tr><tr>
+                            <td>MATH120</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>MATH103</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>STAT101</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>COSC261</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>COSC262</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>COSC264</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>COSC265</td>
+                            <td>Semester Two</td>
+                        </tr><tr>
+                            <td>SENG201</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>SENG202</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>ENCE260</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>DATA201</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>STAT221</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>STAT211</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>STAT202</td>
+                            <td>Semester Two</td>
+                        </tr><tr>
+                            <td>MATH202</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>COSC362</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>COSC363</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>COSC364</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>SENG365</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>COSC367</td>
+                            <td>Semester Two</td>
+                        </tr><tr>
+                            <td>COSC368</td>
+                            <td>Semester Two</td>
+                        </tr>
+                        <tr>
+                            <td>SENG301</td>
+                            <td>Semester One</td>
+                        </tr>
+                        <tr>
+                            <td>SENG302</td>
+                            <td>Whole Year</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Model for contact -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="servicesContentTitle textFormateTypeOne" >Min Zhang</p>
+                    <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p class="servicesContentDetail textFormateTypeOne contactDetail" ><em class="far fa-envelope-open"></em> min.zhang@iaceit.com</p>
+                    <p class="servicesContentDetail textFormateTypeOne contactDetail" ><em class="far fa-envelope-open"></em>  iaceit@icloud.com</p>
+                    <p class="servicesContentDetail textFormateTypeOne contactDetail" ><em class="fas fa-mobile-alt"></em>   0274617659</p>
+                    <img class="wechatbar" src="../images/barcode.png" alt="wechatbar" width="150px" height="150px">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
