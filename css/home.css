@@ -1,5 +1,5 @@
 body{
-    font-family: "Times New Roman";
+    font-family: "Arial";
     font-weight: bold;
 }
 .textFormateTypeOne{
@@ -40,4 +40,16 @@ body{
 }
 .wechatbar{
     margin-left: 35%;
+}
+
+#tutorInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    background-color: #1b1e21;
+    opacity: 0.4;
+    display: none
 }
